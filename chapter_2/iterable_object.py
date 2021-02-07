@@ -1,7 +1,7 @@
 """
 This module  shows how to design an iterable
 object, so that it can be iterated over using
-a for loop.
+a for loop that gets one item at a time.
 """
 
 from datetime import timedelta, date
