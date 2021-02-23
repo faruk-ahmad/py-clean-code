@@ -14,8 +14,9 @@ def say_hurrah():
 def say_hamba(name):
     """Say hamba
     """
-    print(f"Hello- {name}")
+    print("Saying Hamba-")
+    return f"Hello- {name}"
 
 if __name__ == '__main__':
-    say_hurrah()
-    say_hamba("World")
+    print(say_hurrah())
+    print(say_hamba("World"))
