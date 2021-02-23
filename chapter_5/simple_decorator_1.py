@@ -1,5 +1,8 @@
 """
 This module shows how a simple decorator works.
+But this is not the usual way you wirte a decorator
+in python. Their are more convenient way, will show
+later.
 """
 
 def my_decorator(func):
