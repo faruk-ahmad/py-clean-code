@@ -10,5 +10,12 @@ def say_hurrah():
     """
     print("Hurrah!")
 
+@do_twice
+def say_hamba(name):
+    """Say hamba
+    """
+    print(f"Hello- {name}")
+
 if __name__ == '__main__':
     say_hurrah()
+    say_hamba("World")
